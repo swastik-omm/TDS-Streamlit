@@ -3,9 +3,9 @@ import streamlit as st
 st.header(':blue[Find the largest among the 3 given numbers(value greater than the other two])')
 a = st.number_input('Insert first number')
 st.write('The first number is ', a)
-b = st.number_input('Insert first number')
+b = st.number_input('Insert second number')
 st.write('The first number is ', b)
-c = st.number_input('Insert first number')
+c = st.number_input('Insert third number')
 st.write('The first number is ', c)
 largest = 0
 
