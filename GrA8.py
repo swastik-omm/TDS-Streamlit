@@ -18,4 +18,4 @@ if st.button('Find the Largest one'):
         largest = c
     st.write(largest, "is the largest of three numbers.")
 else:
-    st.write('Goodbye')
+    st.write('Click the above button to get the result')
